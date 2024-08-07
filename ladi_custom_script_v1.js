@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-const year = new Date().getFullYear();
+const currentThisYear = new Date().getFullYear();
 const footerElement = document.querySelector('.ladi-element.copyright_footer h3');
 
 if (footerElement) {
-    footerElement.innerHTML = `@2017-${year} - Hệ thống website này trực thuộc <a href="https://binhthuanford.com.vn/" target="_blank" class="footer-link">Bình Thuận Ford</a>`;
+    footerElement.innerHTML = `©2017-${currentThisYear} - Hệ thống website này trực thuộc <a href="https://binhthuanford.com.vn/" target="_blank" class="footer-link">Bình Thuận Ford</a>`;
 }
     
     const style = document.createElement('style');
