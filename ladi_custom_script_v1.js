@@ -62,13 +62,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     scrollToTopBtn.addEventListener('click', function() {
-       const headingTopSections = document.querySelectorAll('.ladi-section');
-    
-    if (headingTopSections.length > 0) {
-        const firstSection = headingTopSections[0];
-        
-        firstSection.scrollIntoView({ behavior: 'smooth' });
-    }
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     });
 
     const sections = document.querySelectorAll('.ladi-section.add_readmore');
