@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         #scrollToTopBtn {
             position: fixed;
-            bottom: 150px;
-            right: 150px;
+            bottom: 130px;
+            right: 10%;
             background-color: white;
             border: none;
             padding: 10px;
@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
         @media (max-width:767px)
         {
         #scrollToTopBtn {
-            bottom: 80px;
-            right: 20px;
+            bottom: 50px;
+            right: 44%;
         }
         }
     `;
