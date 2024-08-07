@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             position: absolute;
             bottom: 0;
             width: 100%;
+            margin:auto;
             max-width:1200px;
             background-color: #00095b;
             color: white;
