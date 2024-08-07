@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             section.style.height = `${defaultHeight}px`;
             section.style.overflow = 'hidden';
             section.style.position = 'relative';
+            section.style.paddingBottom = '50px';
             const readmore_txt = 'Xem thêm';
             const readless_txt = 'Thu gọn';
             let button = section.querySelector('.readmore-button');
