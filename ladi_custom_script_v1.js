@@ -76,7 +76,6 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(section => {
         const container = section.querySelector('.ladi-container');
         const containerHeight = section.scrollHeight;
-        console.log("section height: ", containerHeight);
         let defaultHeight = 300;
 
         if (container) {
