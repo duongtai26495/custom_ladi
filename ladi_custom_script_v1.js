@@ -8,6 +8,9 @@ if (footerElement) {
     
     const style = document.createElement('style');
     style.innerHTML = `
+            .popup-menu-mobile .popup-close {
+            background-color: #00095b;
+        }
         .footer-link { text-decoration: none !important; font-weight: bold; }';
         .ladi-section.add_readmore {
             transition: height .5s ease;
