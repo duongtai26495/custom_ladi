@@ -48,6 +48,11 @@ if (footerElement) {
             height: 24px;
             fill: #00095b;
         }
+        .ladi-popupx .popup-close {
+            background-color: white;
+            padding: 15px;
+            margin: 0 !important;
+        }
         @media (max-width:767px)
         {
         #scrollToTopBtn {
