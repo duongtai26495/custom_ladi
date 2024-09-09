@@ -80,6 +80,7 @@ const addNotificationCSS = () => {
                 bottom: unset;
                 left: 4%;
                 line-height: 1.1em;
+                width: 100%;
                 max-width: 75%;
                 padding: 5px;
                 z-index: 995;
