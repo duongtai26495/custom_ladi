@@ -187,7 +187,7 @@ const startNotifications = async () => {
        
             const randomDelay = Math.floor(Math.random() * (45000 - 10000 + 1)) + 10000;
             
-            console.log(users[index], randomDelay)
+            console.log(randomDelay)
             setTimeout(showNextNotification, randomDelay);
         };
         
