@@ -183,7 +183,7 @@ const startNotifications = async () => {
         };
 
         const scheduleNextNotification = () => {
-            const randomDelay = Math.floor(Math.random() * (45000 - 10000 + 1)) + 10000;
+            const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
             console.log(randomDelay);
             setTimeout(showNextNotification, randomDelay);
         };
