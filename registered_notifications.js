@@ -166,7 +166,7 @@ const showNotification = (message) => {
     notificationDiv.classList.add('show');
     setTimeout(() => {
         notificationDiv.classList.remove('show');
-    }, 10000);
+    }, 15000);
 };
 
 const startNotifications = async () => {
