@@ -160,7 +160,7 @@ const formatNotification = (user) => {
     `;
 };
 
-const showNotification = (message, randomDelay) => {
+const showNotification = (message) => {
     const notificationDiv = document.getElementById('sale-notification');
     notificationDiv.innerHTML = message;
     notificationDiv.classList.add('show');
@@ -180,13 +180,13 @@ const startNotifications = async () => {
         const showNextNotification = () => {
             const randomIndex = Math.floor(Math.random() * users.length);
             const message = formatNotification(users[randomIndex]);
-            showNotification(message, randomDelay);
+            showNotification(message);
             scheduleNextNotification(); 
         };
 
         const scheduleNextNotification = () => {
             console.log(randomDelay);
-            setTimeout(showNextNotification, randomDelay);
+            setTimeout(showNextNotification);
         };
         
         scheduleNextNotification();
