@@ -160,17 +160,19 @@ const formatNotification = (user) => {
     `;
 };
 
-const showNotification = (message) => {
+const showNotification = (message, randomDelay) => {
     const notificationDiv = document.getElementById('sale-notification');
     notificationDiv.innerHTML = message;
     notificationDiv.classList.add('show');
     setTimeout(() => {
         notificationDiv.classList.remove('show');
-    }, 7000);
+    }, randomDelay+3000);
 };
 
 const startNotifications = async () => {
     try {
+        
+        const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
         const response = await fetch('https://duongtai26495.github.io/custom_ladi/customer.json'); 
         const data = await response.json();
         const users = data.users;
@@ -178,12 +180,11 @@ const startNotifications = async () => {
         const showNextNotification = () => {
             const randomIndex = Math.floor(Math.random() * users.length);
             const message = formatNotification(users[randomIndex]);
-            showNotification(message);
+            showNotification(message, randomDelay);
             scheduleNextNotification(); 
         };
 
         const scheduleNextNotification = () => {
-            const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
             console.log(randomDelay);
             setTimeout(showNextNotification, randomDelay);
         };
