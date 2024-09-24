@@ -1,13 +1,11 @@
 
-
 const addNotificationCSS = () => {
     const style = document.createElement('style');
     style.innerHTML = `
         #sale-notification {
             position: fixed;
-            bottom: unset;
-            top: 150px;
-            left: 20px;
+            bottom: 20px;
+            right: 350px;
             background-color: rgb(255 255 255);
             box-shadow: 0 0 2px 1px #00095b;
             color: white;
@@ -82,6 +80,7 @@ const addNotificationCSS = () => {
                 bottom: unset;
                 left: 4%;
                 line-height: 1.1em;
+                width: 100%;
                 max-width: 75%;
                 padding: 5px;
                 z-index: 995;
@@ -167,28 +166,26 @@ const showNotification = (message) => {
     notificationDiv.classList.add('show');
     setTimeout(() => {
         notificationDiv.classList.remove('show');
-    }, 7000);
+    }, 10000);
 };
 
 const startNotifications = async () => {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/duongtai26495/registered_notifications/main/data.json'); 
+        
+        const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
+        const response = await fetch('https://duongtai26495.github.io/custom_ladi/customer.json'); 
         const data = await response.json();
         const users = data.users;
-        let index = 0;
 
         const showNextNotification = () => {
-            const message = formatNotification(users[index]);
+            const randomIndex = Math.floor(Math.random() * users.length);
+            const message = formatNotification(users[randomIndex]);
             showNotification(message);
-            index = (index + 1) % users.length; 
             scheduleNextNotification(); 
         };
 
         const scheduleNextNotification = () => {
-       
-            const randomDelay = Math.floor(Math.random() * (45000 - 10000 + 1)) + 10000;
-            
-            console.log(users[index], randomDelay)
+            console.log(randomDelay);
             setTimeout(showNextNotification, randomDelay);
         };
         
@@ -203,3 +200,4 @@ document.addEventListener('DOMContentLoaded', () => {
     addNotificationDiv();
     startNotifications();
 });
+
