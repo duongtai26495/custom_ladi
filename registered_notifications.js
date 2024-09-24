@@ -172,7 +172,6 @@ const showNotification = (message) => {
 const startNotifications = async () => {
     try {
         
-        const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
         const response = await fetch('https://duongtai26495.github.io/custom_ladi/customer.json'); 
         const data = await response.json();
         const users = data.users;
@@ -185,6 +184,7 @@ const startNotifications = async () => {
         };
 
         const scheduleNextNotification = () => {
+        const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
             console.log(randomDelay);
             setTimeout(showNextNotification, randomDelay);
         };
