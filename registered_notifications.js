@@ -176,7 +176,7 @@ const showNotification = (message) => {
 
 const startNotifications = async () => {
     try {
-        const response = await fetch('https://duongtai26495.github.io/custom_ladi/customer.json'); 
+        const response = await fetch('data.json'); 
         const data = await response.json();
         const users = data.users;
 
@@ -207,5 +207,8 @@ const startNotifications = async () => {
 document.addEventListener('DOMContentLoaded', () => {
     addNotificationCSS();
     addNotificationDiv();
-    startNotifications();
+    const randomAppear = Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000;
+    setTimeout(()=>{
+        startNotifications();
+    },randomAppear)
 });
