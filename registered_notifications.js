@@ -176,7 +176,7 @@ const showNotification = (message) => {
 
 const startNotifications = async () => {
     try {
-        const response = await fetch('data.json'); 
+        const response = await fetch('https://duongtai26495.github.io/custom_ladi/customer.json'); 
         const data = await response.json();
         const users = data.users;
 
