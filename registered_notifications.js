@@ -161,13 +161,18 @@ const formatNotification = (user) => {
 };
 
 const showNotification = (message) => {
-    const notificationDiv = document.getElementById('sale-notification');
-    notificationDiv.innerHTML = message;
-    notificationDiv.classList.add('show');
-    setTimeout(() => {
-        notificationDiv.classList.remove('show');
-    }, 15000);
+    return new Promise((resolve) => {
+        const notificationDiv = document.getElementById('sale-notification');
+        notificationDiv.innerHTML = message;
+        notificationDiv.classList.add('show');
+        
+        setTimeout(() => {
+            notificationDiv.classList.remove('show');
+            resolve(); 
+        }, 5000); 
+    });
 };
+
 
 const startNotifications = async () => {
     try {
@@ -175,17 +180,21 @@ const startNotifications = async () => {
         const data = await response.json();
         const users = data.users;
 
-        const showNextNotification = () => {
+        const showNextNotification = async () => {
+            const randomDelay = Math.floor(Math.random() * (10000 - 3000 + 1)) + 3000;
             const randomIndex = Math.floor(Math.random() * users.length);
             const message = formatNotification(users[randomIndex]);
-            showNotification(message);
-            scheduleNextNotification(); 
+
+            await showNotification(message); 
+            console.log(`Thông báo tiếp theo sau: ${randomDelay}ms`);
+
+            setTimeout(() => {
+                scheduleNextNotification(); 
+            }, randomDelay);
         };
 
         const scheduleNextNotification = () => {
-            const randomDelay = Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
-            console.log(randomDelay);
-            setTimeout(showNextNotification, randomDelay);
+            showNextNotification();
         };
         
         scheduleNextNotification();
@@ -194,9 +203,9 @@ const startNotifications = async () => {
     }
 };
 
+
 document.addEventListener('DOMContentLoaded', () => {
     addNotificationCSS();
     addNotificationDiv();
     startNotifications();
 });
-
