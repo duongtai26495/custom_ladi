@@ -9,14 +9,6 @@
         "link": "https://ranger.binhthuanford.com"
     },
     {
-        "name": "Trần Thị Hồng Nhung",
-        "car": "Ford Territory NextGen",
-        "time": "07:00",
-        "location": "La Gi, Bình Thuận",
-        "gender": "female",
-        "link": "https://territory.binhthuanford.com"
-    },
-    {
         "name": "Lê Minh Hùng",
         "car": "Ford Everest NextGen",
         "time": "07:30",
@@ -24,14 +16,7 @@
         "gender": "male",
         "link": "https://everest.binhthuanford.com"
     },
-    {
-        "name": "Hoàng Thị Lan",
-        "car": "Ford Ranger NextGen",
-        "time": "08:00",
-        "location": "Bắc Bình, Bình Thuận",
-        "gender": "female",
-        "link": "https://ranger.binhthuanford.com"
-    },
+   
     {
         "name": "Nguyễn Văn Phong",
         "car": "Ford Territory NextGen",
@@ -121,14 +106,6 @@
         "link": "https://everest.binhthuanford.com"
     },
     {
-        "name": "Lê Thị Luyến",
-        "car": "Ford Ranger NextGen",
-        "time": "14:00",
-        "location": "La Gi, Bình Thuận",
-        "gender": "female",
-        "link": "https://ranger.binhthuanford.com"
-    },
-    {
         "name": "Nguyễn Văn Hòa",
         "car": "Ford Territory NextGen",
         "time": "14:30",
@@ -137,28 +114,12 @@
         "link": "https://territory.binhthuanford.com"
     },
     {
-        "name": "Phạm Thị Hương",
-        "car": "Ford Everest NextGen",
-        "time": "15:00",
-        "location": "Phan Thiết, Bình Thuận",
-        "gender": "female",
-        "link": "https://everest.binhthuanford.com"
-    },
-    {
         "name": "Hoàng Văn Đông",
         "car": "Ford Ranger NextGen",
         "time": "15:30",
         "location": "La Gi, Bình Thuận",
         "gender": "male",
         "link": "https://ranger.binhthuanford.com"
-    },
-    {
-        "name": "Nguyễn Thị Ánh",
-        "car": "Ford Territory NextGen",
-        "time": "16:00",
-        "location": "Tuy Phong, Bình Thuận",
-        "gender": "female",
-        "link": "https://territory.binhthuanford.com"
     },
     {
         "name": "Lê Văn Bình",
@@ -185,14 +146,6 @@
         "link": "https://territory.binhthuanford.com"
     },
     {
-        "name": "Lê Thị Hà",
-        "car": "Ford Everest NextGen",
-        "time": "18:00",
-        "location": "La Gi, Bình Thuận",
-        "gender": "female",
-        "link": "https://everest.binhthuanford.com"
-    },
-    {
         "name": "Nguyễn Văn Khoa",
         "car": "Ford Ranger NextGen",
         "time": "18:30",
@@ -215,14 +168,6 @@
         "location": "Phan Thiết, Bình Thuận",
         "gender": "male",
         "link": "https://everest.binhthuanford.com"
-    },
-    {
-        "name": "Lê Thị Phương",
-        "car": "Ford Ranger NextGen",
-        "time": "20:00",
-        "location": "La Gi, Bình Thuận",
-        "gender": "female",
-        "link": "https://ranger.binhthuanford.com"
     },
     {
         "name": "Nguyễn Văn Tài",
@@ -273,28 +218,12 @@
         "link": "https://everest.binhthuanford.com"
     },
     {
-        "name": "Trần Thị Huyền",
-        "car": "Ford Ranger NextGen",
-        "time": "23:30",
-        "location": "Tánh Linh, Bình Thuận",
-        "gender": "female",
-        "link": "https://ranger.binhthuanford.com"
-    },
-    {
         "name": "Phạm Văn Bảo",
         "car": "Ford Territory NextGen",
         "time": "00:00",
         "location": "La Gi, Bình Thuận",
         "gender": "male",
         "link": "https://territory.binhthuanford.com"
-    },
-    {
-        "name": "Ngô Thị Hồng",
-        "car": "Ford Everest NextGen",
-        "time": "00:30",
-        "location": "Phan Thiết, Bình Thuận",
-        "gender": "female",
-        "link": "https://everest.binhthuanford.com"
     },
     {
         "name": "Đỗ Văn Khoa",
@@ -319,14 +248,6 @@
         "location": "Phan Thiết, Bình Thuận",
         "gender": "male",
         "link": "https://everest.binhthuanford.com"
-    },
-    {
-        "name": "Lê Thị Tuyết",
-        "car": "Ford Ranger NextGen",
-        "time": "02:30",
-        "location": "La Gi, Bình Thuận",
-        "gender": "female",
-        "link": "https://ranger.binhthuanford.com"
     },
     {
         "name": "Nguyễn Văn Đạt",
@@ -369,12 +290,444 @@
         "link": "https://everest.binhthuanford.com"
     },
     {
-        "name": "Hoàng Thị Nhung",
+        "name": "Hoàng Văn Kiên",
         "car": "Ford Ranger NextGen",
         "time": "05:30",
         "location": "Tánh Linh, Bình Thuận",
-        "gender": "female",
+        "gender": "male",
         "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Tài",
+        "car": "Ford Ranger NextGen",
+        "time": "12:45",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Trần Văn Tuấn",
+        "car": "Ford Territory NextGen",
+        "time": "11:15",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Hưng",
+        "car": "Ford Everest NextGen",
+        "time": "14:30",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Hữu Phước",
+        "car": "Ford Ranger NextGen",
+        "time": "09:05",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Văn Thành",
+        "car": "Ford Territory NextGen",
+        "time": "17:30",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Xuân Tùng",
+        "car": "Ford Everest NextGen",
+        "time": "19:10",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Minh Châu",
+        "car": "Ford Ranger NextGen",
+        "time": "15:55",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Đình Huy",
+        "car": "Ford Territory NextGen",
+        "time": "22:15",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Hoàng Sơn",
+        "car": "Ford Everest NextGen",
+        "time": "03:30",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đặng Văn Nam",
+        "car": "Ford Ranger NextGen",
+        "time": "08:25",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Kiên",
+        "car": "Ford Territory NextGen",
+        "time": "01:50",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Ngọc Tùng",
+        "car": "Ford Everest NextGen",
+        "time": "06:45",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Văn Phúc",
+        "car": "Ford Ranger NextGen",
+        "time": "16:30",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Huy Tâm",
+        "car": "Ford Territory NextGen",
+        "time": "10:10",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Minh Quân",
+        "car": "Ford Everest NextGen",
+        "time": "04:00",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Văn Tài",
+        "car": "Ford Ranger NextGen",
+        "time": "20:00",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Đình Quang",
+        "car": "Ford Territory NextGen",
+        "time": "13:20",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Thành Công",
+        "car": "Ford Everest NextGen",
+        "time": "07:35",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Vĩnh Phú",
+        "car": "Ford Ranger NextGen",
+        "time": "09:50",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Ngọc Bảo",
+        "car": "Ford Territory NextGen",
+        "time": "11:45",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Khắc Duy",
+        "car": "Ford Everest NextGen",
+        "time": "05:05",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Công Hùng",
+        "car": "Ford Ranger NextGen",
+        "time": "23:20",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Phúc",
+        "car": "Ford Territory NextGen",
+        "time": "02:15",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Đức Thịnh",
+        "car": "Ford Everest NextGen",
+        "time": "12:30",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Đức Anh",
+        "car": "Ford Ranger NextGen",
+        "time": "22:05",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Công Minh",
+        "car": "Ford Territory NextGen",
+        "time": "18:00",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Dũng",
+        "car": "Ford Everest NextGen",
+        "time": "01:40",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Văn Bảo",
+        "car": "Ford Ranger NextGen",
+        "time": "15:25",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Hòa",
+        "car": "Ford Territory NextGen",
+        "time": "20:50",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Kiên",
+        "car": "Ford Everest NextGen",
+        "time": "10:40",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Phú",
+        "car": "Ford Ranger NextGen",
+        "time": "03:15",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Trần Văn Hòa",
+        "car": "Ford Territory NextGen",
+        "time": "14:25",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Lê Hữu Tín",
+        "car": "Ford Everest NextGen",
+        "time": "05:55",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Lộc",
+        "car": "Ford Ranger NextGen",
+        "time": "11:40",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Xuân Tài",
+        "car": "Ford Territory NextGen",
+        "time": "07:25",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Hoàng Minh",
+        "car": "Ford Everest NextGen",
+        "time": "23:45",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Minh Hoàng",
+        "car": "Ford Ranger NextGen",
+        "time": "01:05",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Đức Cường",
+        "car": "Ford Territory NextGen",
+        "time": "19:35",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Sơn",
+        "car": "Ford Everest NextGen",
+        "time": "02:10",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đặng Văn Hải",
+        "car": "Ford Ranger NextGen",
+        "time": "12:50",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Bình",
+        "car": "Ford Territory NextGen",
+        "time": "17:15",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Ngọc Hưng",
+        "car": "Ford Everest NextGen",
+        "time": "06:55",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Quốc Duy",
+        "car": "Ford Ranger NextGen",
+        "time": "04:20",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Tuyên",
+        "car": "Ford Territory NextGen",
+        "time": "10:05",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Khải",
+        "car": "Ford Everest NextGen",
+        "time": "08:15",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Minh Khôi",
+        "car": "Ford Ranger NextGen",
+        "time": "15:30",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Quang Phúc",
+        "car": "Ford Territory NextGen",
+        "time": "18:45",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Thiện",
+        "car": "Ford Everest NextGen",
+        "time": "13:55",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Trần Minh Trí",
+        "car": "Ford Ranger NextGen",
+        "time": "21:35",
+        "location": "Phan Thiết, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Hữu Quang",
+        "car": "Ford Territory NextGen",
+        "time": "09:40",
+        "location": "La Gi, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Thắng",
+        "car": "Ford Everest NextGen",
+        "time": "16:10",
+        "location": "Tuy Phong, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
+    },
+    {
+        "name": "Đỗ Đức Phúc",
+        "car": "Ford Ranger NextGen",
+        "time": "00:50",
+        "location": "Phú Quý, Bình Thuận",
+        "gender": "male",
+        "link": "https://ranger.binhthuanford.com"
+    },
+    {
+        "name": "Lê Văn Thắng",
+        "car": "Ford Territory NextGen",
+        "time": "12:05",
+        "location": "Bắc Bình, Bình Thuận",
+        "gender": "male",
+        "link": "https://territory.binhthuanford.com"
+    },
+    {
+        "name": "Nguyễn Văn Quang",
+        "car": "Ford Everest NextGen",
+        "time": "14:50",
+        "location": "Hàm Thuận Bắc, Bình Thuận",
+        "gender": "male",
+        "link": "https://everest.binhthuanford.com"
     }
 ]
 }
